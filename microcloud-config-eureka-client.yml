@@ -2,7 +2,6 @@ spring:
   profiles:
     active:
     - dev
-
 ---
 spring:
   profiles: dev
@@ -24,7 +23,6 @@ eureka:
     fetch-registry: false     # 不通过eureka获取注册信息
   instance: # eureak实例定义
     hostname: eureka-7001.com # 定义Eureka实例所在的主机名称
-
 ---
 spring:
   profiles: beta
